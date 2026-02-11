@@ -1,0 +1,20 @@
+Task 4 — General Questions:
+1.
+Task 4 — General Questions:
+ Declaration: Create a variable. 
+ Initialisation: assign first value;
+ Re-assignment: change value.
+
+2. Scopes:
+   Global: accessible everywhere.
+   Function/Local: accessible inside a function.
+   Block: accessible inside {} with let or const.
+3. Redeclare let or const:
+    Causes SyntaxError.
+
+4. Use a variable before declaration:
+     var: undefined.
+     let/const: ReferenceError.
+
+5. When to use var:
+Rarely, only for old browser support or function-scoped variables; prefer let / const.
